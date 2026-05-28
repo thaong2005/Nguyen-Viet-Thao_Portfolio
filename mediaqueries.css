@@ -19,19 +19,22 @@
     #Experience, .experience-details-container {
         margin-top: 2rem;
     }
-    #profile, .section-container {
-        display: block;
+    #profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
-    .arrow {
-        display: none;
+    .section_text {
+        text-align: center;
+        align-items: center;
     }
 
     section, .section-container{
-        height: fit-content;
+        height: auto;
     }
 
-    experience-details-container, .about-containers {
+    .about-containers {
         flex-direction: column;
         align-items: center;
     }
@@ -52,12 +55,14 @@
 
 @media screen and (max-width: 600px) {
     #Contact, footer{
-        height: 40vh;
+        height: auto;
+        padding: 4rem 5rem;
     }
     
     #profile {
-        height: fit-content;
+        height: auto;
         margin-bottom: 0;
+        padding: 4rem 5rem;
     }
     article{
         font-size: 1rem;
@@ -66,8 +71,13 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    .about-containers, .contact-info-upper-container, .btn-container {
+    .about-containers, .contact-info-upper-container {
         flex-wrap: wrap;
+    }
+
+    .btn-container {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .contact-info-container{
@@ -83,7 +93,7 @@
     }
 
     .logo {
-        font-size: 1.25rem
+        font-size: 1.25rem;
     }
     .nav-links {
         flex-direction: column;
