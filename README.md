@@ -12,7 +12,7 @@ This project showcases my skills, projects, and experience as a developer. Built
 
 - HTML
 - CSS
-- JavaScript:
+- JavaScript
 
 ## Features
 
