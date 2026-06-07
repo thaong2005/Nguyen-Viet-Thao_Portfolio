@@ -1,5 +1,5 @@
 # My Portfolio
-https://thaong2005.github.io/My-Portfolio/
+[https://thaong2005.github.io/My-Portfolio/](http://thaong2005.github.io/Nguyen-Viet-Thao_Portfolio/)
 
 Welcome to the **My Portfolio** repository!  
 This is a personal portfolio website.
